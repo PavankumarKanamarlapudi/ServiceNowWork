@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Intances" max_length="40" name="x_snc_requestacces_intances" type="collection">
+        <element display="true" label="Instance Name" max_length="100" name="instancename" type="string"/>
+        <element label="Password" max_length="255" name="password" type="password2"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice/>
+        </element>
+        <element label="UserName" max_length="100" name="username" type="string"/>
+    </element>
+</database>
